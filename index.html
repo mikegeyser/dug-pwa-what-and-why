@@ -74,6 +74,7 @@
 
 		.two {
 			background-color: rgb(150, 150, 150);
+			font-size: 2.5em !important;
 		}
 
 		.three {
@@ -111,29 +112,24 @@
 		<div class="slides">
 			<section>
 				<div class="rotate">
-					<h4 class="one">Progressive Web Apps</h4>
-					<h3 class="two">What are they, and</h3>
-					<h3 class="three">Why should you care?</h3>
+					<h4 class="one">What are</h4>
+					<h3 class="two">Progressive Web Apps</h3>
+					<h3 class="three">and why should you care?</h3>
 				</div>
-				<br/>
+				<br />
 				<div class="leftish">
 					<h4>@mikegeyser</h4>
-					<h4>13 Feb 2018</h4>
 				</div>
 			</section>
 			<section>
 				<section>
 					<img id="bbd" src="images/bbd.png" alt="">
-					<img id="compiling" src="images/compiling.png" alt="" class="fragment">
 				</section>
 				<section>
 					<img id="gde" src="images/gde-badge.png" alt="">
 				</section>
 				<section>
 					<img id="jozijs" src="images/jozijs.png" alt="">
-				</section>
-				<section>
-					<img id="docker" src="images/docker.png" alt="">
 				</section>
 			</section>
 			<section>
@@ -142,31 +138,33 @@
 				</section>
 				<section>
 					<blockquote>
-						"apps taking advantage of new features supported by modern browsers [...] that let users upgrade web apps to progressive
+						"apps taking advantage of new features supported by modern browsers [...] that let users upgrade web apps to
+						progressive
 						web applications in their native operating system"
 
 					</blockquote>
 					<cite>- Frances Berriman and Alex Russell, 2015</cite>
 				</section>
 				<section>
+					<p>Fast</p>
+					<p>Integrated</p>
 					<p>Reliable</p>
-					<p class="fragment">Fast</p>
-					<p class="fragment">Engaging</p>
+					<p>Engaging</p>
 				</section>
 				<section>
 					<div class="left">
 						<p>Progressive </p>
-						<p class="fragment">Responsive </p>
-						<p class="fragment">Connectivity independent </p>
-						<p class="fragment">App-like </p>
-						<p class="fragment">Fresh </p>
+						<p>Responsive </p>
+						<p>Connectivity independent </p>
+						<p>App-like </p>
+						<p>Fresh </p>
 					</div>
 					<div class="right">
-						<p class="fragment">Safe </p>
-						<p class="fragment">Discoverable </p>
-						<p class="fragment">Re-engageable </p>
-						<p class="fragment">Installable </p>
-						<p class="fragment">Linkable </p>
+						<p>Safe </p>
+						<p>Discoverable </p>
+						<p>Re-engageable </p>
+						<p>Installable </p>
+						<p>Linkable </p>
 					</div>
 				</section>
 			</section>
@@ -257,7 +255,7 @@
 				</section>
 				<section>
 					<blockquote>What does 'loaded' mean?</blockquote>
-					<br/>
+					<br />
 					<ol>
 						<li class="fragment" data-fragment-index="1">Is it happening?
 							<br />
@@ -276,7 +274,7 @@
 				<section>
 					<blockquote>JavaScript is your most expensive asset.</blockquote>
 					<cite>- Alex Russell</cite>
-					<br/>
+					<br />
 					<p class="fragment">Script loading delays TTI</p>
 				</section>
 				<section>
@@ -288,8 +286,8 @@
 						<li>&lt; 5s first load</li>
 						<li>&lt; 2s subsequent</li>
 					</ul>
-					<br/>
-					<br/>
+					<br />
+					<br />
 					<h2 class="fragment">
 						Budget:
 						<span class="fragment highlight-red"> ± 170kb </span>
@@ -298,45 +296,16 @@
 			</section>
 
 			<section>
-				<section>
-					<h2>The PRPL Pattern</h2>
-				</section>
-				<section>
-					<ul>
-						<li>
-							<strong>Push </strong>critical resources.
-							<br />
-							<em class="fragment">- HTTP/2, or link rel="preload"</em>
-						</li>
-
-						<li>
-							<strong>Render</strong> initial route.
-							<br />
-							<em class="fragment">- Minimal AppShell</em>
-						</li>
-						<li>
-							<strong>Pre-cache</strong> remaining routes.
-							<br />
-							<em class="fragment">- Precache using Service Worker</em>
-						</li>
-						<li>
-							<strong>Lazy-load</strong> on demand.
-							<br />
-							<em class="fragment">- Code splitting</em>
-						</li>
-					</ul>
-				</section>
-				<section>
-					<img src="images/prpl.png" alt="">
-				</section>
+				<h2>Demo</h2>
 			</section>
+
 			<section>
 				<section>
 					<h2>Why should I care?</h2>
 				</section>
 				<section>
-					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600"
-					 style="font-size: 1em;">
+					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="600"
+					 height="600" style="font-size: 1em;">
 						<ellipse cx="33.33333333333333%" cy="50%" rx="27.857142857142858%" ry="27.857142857142858%" fill="rgba(204, 41, 114, 0.3)"
 						 style="stroke: rgb(102, 20, 57); stroke-opacity: 0.5;"></ellipse>
 						<ellipse cx="66.66666666666667%" cy="50%" rx="27.857142857142858%" ry="27.857142857142858%" fill="rgba(103, 112, 140, 0.3)"
@@ -415,7 +384,11 @@
 					<p class="fragment">26% -> 38% mobile web</p>
 				</section>
 			</section>
+
 			<section>
+				<section>
+					<h2>Summary</h2>
+				</section>
 				<section>
 					<h2>Is it ready?</h2>
 				</section>
@@ -430,54 +403,6 @@
 				</section>
 				<section>
 					<img src="images/safari.png" class="browser">
-				</section>
-			</section>
-
-			<section>
-				<section>
-					<h2>Summary</h2>
-				</section>
-				<section>
-					<h3>No clear definition of a PWA</h3>
-					<br>
-					<p>(More a spectrum. Kinda like REST.)</p>
-				</section>
-				<section>
-					<h3>Installation is a gimmick</h3>
-					<br>
-					<p>(There, I said it...)</p>
-				</section>
-				<section>
-					<h3>Native mobile is here to stay</h3>
-					<br>
-					<p>(Hybrid mobile is gone.)</p>
-				</section>
-				<section>
-					<h3>Web performance sucks</h3>
-					<br>
-					<p>(Change, or be left behind.)</p>
-				</section>
-				<section>
-					<h3>This is a thing</h3>
-					<br>
-					<p>(Or thats what Google, Apple, Microsoft and Mozilla think...)</p>
-				</section>
-				<section>
-					<h3>Examples</h3>
-					<ul>
-						<li>
-							<a href="https://mobile.twitter.com">Twitter lite</a>
-						</li>
-						<li>
-							<a href="https://www.google.com/maps?force=pwa">Google Maps Go</a>
-						</li>
-						<li>
-							<a href="https://code.nasa.gov">NASA Code</a>
-						</li>
-						<li>
-							<a href="https://hnpwa.com/">HNPWA</a>
-						</li>
-					</ul>
 				</section>
 			</section>
 			<section>
